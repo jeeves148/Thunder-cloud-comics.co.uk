@@ -1,2 +1,3 @@
 # Thunder-cloud-comics.co.uk
-This is my main comics site, because everything else was too expensive and I'm cheap.
+Thunder Cloud comics is a small web project based of my own comics and stuff.
+Made by the Scientific Lemonade with new comics once every month.
