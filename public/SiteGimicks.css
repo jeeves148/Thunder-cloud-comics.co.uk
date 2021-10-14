@@ -15,8 +15,8 @@
     width: auto;
     height: auto;
     position:fixed;
-    left: 0px;
-    top: 0px;
+    right: 5%;
+    bottom: 5%;
     z-index: 10;
     border-radius: 50% 50%;
 }
