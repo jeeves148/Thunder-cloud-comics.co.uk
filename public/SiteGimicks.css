@@ -9,8 +9,11 @@
 
 .MiniCircleLogo
 {
-    width: 10%;
-    height: 10%;
+    display: block;
+    max-width:10%;
+    max-height:10%;
+    width: auto;
+    height: auto;
     position:fixed;
     left: 0px;
     top: 0px;
