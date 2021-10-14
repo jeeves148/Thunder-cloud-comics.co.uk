@@ -9,14 +9,14 @@
 
 .MiniCircleLogo
 {
-
-    z-index: index 10;
     width: 10%;
     height: 10%;
-    object-position: 95% 95%;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
     border-radius: 50% 50%;
 }
-
 :hover .MiniCircleLogo
 {
 
