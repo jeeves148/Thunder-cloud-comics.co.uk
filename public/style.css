@@ -1,26 +1,4 @@
-@keyframes spin 
-{
-    0%{transform: rotate(0deg);}
-    25%{transform: rotate(90deg);}
-    50%{transform: rotate(180deg);}
-    100%{transform: rotate(360deg);}
-}
 
-.MiniCircleLogo
-{
-
-    z-index: index 10;
-    width: 10%;
-    height: 10%;
-    object-position: 95% 95%;
-    border-radius: 50% 50%;
-        }
-
-:hover .MiniCircleLogo
-{
-    animation-name: spin;
-    animation-duration:1s;
-}
 
 h1{
     font-family: 'Bungee Shade', cursive;
