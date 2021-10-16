@@ -30,10 +30,13 @@
 /* Style all font awesome icons */
 .fa {
   padding: 14px 16px;
+  float: left;
+  text-align: center;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
+      height:100%;
 }
 
 /* Add a hover effect if you want */
