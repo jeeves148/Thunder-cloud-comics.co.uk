@@ -1,4 +1,5 @@
 
+
 h1{
     font-family: 'Bungee Shade', cursive;
     font-size: 2.75em;
@@ -194,6 +195,29 @@ h1{
       overflow:hidden;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       background-color: white;
+   
+  }
+
+/*full size image*/
+
+  .bigImage{
+      height:auto;
+      width:auto;
+      float:left;
+      flex:33%;
+      margin:5px;
+      margin-top:10px;
+      margin-right:3%;
+      margin-left:3%;
+      margin-bottom:69px;
+      width:95%;
+      postion:absolute;
+      left:50%;
+      right:50%;
+      text-align:center;
+      overflow:hidden;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
    
   }
         
