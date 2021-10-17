@@ -1,7 +1,6 @@
 /* Style the tab */
 .tab {
     overflow: scrollable;
-    border: 1px solid #ccc;
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
   }
@@ -35,7 +34,6 @@
     background-color: #ffffff;
     display: none;
     padding: 6px 12px;
-    border-top: none;
     bottom-padding:5%;
     bottom-margin:5%;
   }
