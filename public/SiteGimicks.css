@@ -29,12 +29,10 @@
 
 /* Style all font awesome icons */
 .fa {
-  padding: 14px 16px;
+  padding:50% 2%;
   text-align: center;
   text-decoration: none;
   height:100%;
-  padding-right: 2%;
-  padding-left: 2%;
 }
 
 /* Add a hover effect if you want */
