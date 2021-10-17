@@ -50,7 +50,7 @@ h1{
   
   h3{
     
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee', cursive;
     font-size: 3.2vw;
     border-radius:20px;
     text-align:left;
@@ -60,7 +60,7 @@ h1{
    @media only screen and (max-width: 600px) {
      h3{
     
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee', cursive;
     font-size: 1.35em;
     border-radius:20px;
     text-align:left;
@@ -71,7 +71,7 @@ h1{
         
      h2{
     
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee', cursive;
     font-size: 3.2vw;
     border-radius:20px;
     text-align:left;
@@ -81,7 +81,7 @@ h1{
    @media only screen and (max-width: 600px) {
      h2{
     
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee', cursive;
     font-size: 1.35em;
     border-radius:20px;
     text-align:left;
@@ -130,7 +130,7 @@ h1{
     
     background-color: #333;
     overflow: hidden;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Poppins', sans-serif;
     z-index:2;
     position:fixed;
     top:15%;
@@ -142,7 +142,7 @@ h1{
     
         background-color: #333;
         overflow: hidden;
-        font-family: 'Bungee Shade', cursive;
+        font-family: 'Poppins', sans-serif;
         z-index:2;
         position:fixed;
         top:15%;

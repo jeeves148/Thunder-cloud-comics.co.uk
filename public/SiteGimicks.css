@@ -26,3 +26,32 @@
     animation-name: spin;
     animation-duration:1s;
 }
+
+/* Style all font awesome icons */
+.fa {
+  padding:50% 2%;
+  text-align: center;
+  text-decoration: none;
+  height:100%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #333;
+  height:100%;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #333;
+  height:100%;
+  color: white;
+}

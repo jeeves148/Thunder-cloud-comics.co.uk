@@ -3,12 +3,18 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title> Comics from Thunder Cloud Comics | Actual , Actual comics</title>
 	 <link rel="shortcut icon" type="image/x-icon" href="favicon (3).ico" />
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+       <link href="style.css" rel="stylesheet">
+  <!-- Here's the javascript and css you need for the tabs, don't touch it , it works dumbass -->
+<script src = "comicTabs.js"></script>
+<link href = "comicTabs.css" rel = "stylesheet">
+<!--Importing Fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Varela+Round&display=swap" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
-       <link href="style.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <meta name="description" content="This is the comics page for thunder cloud comics.New releases as soon as
@@ -36,7 +42,6 @@
 
 <div class="topnav">
  <a  href="https://thunder-cloud-comics.co.uk/index.html">Home</a>
-  <a  href="News.html">News</a>
   <a href="comics.html">Comics</a>
   <a class="active" href="AboutThunderCloud.html">About</a>
 </div>
@@ -51,7 +56,30 @@
 <br>
   <br>
   <br>
-<img src = "../images/PageFillers/WeDoComics.png" class = "bigImage" alt = "We Do Comics">
+	<br>
+
+<!-- Tab links -->
+<div class="tab"> 
+    <button class="tablinks" onclick="openCity(event, 'ExperimentXYZ')">ExperimentXYZ</button>
+    <button class="tablinks" onclick="openCity(event, 'Time-travelling-Bicycle')">Time-travelling Bicycle</button>
+    <button class="tablinks" onclick="openCity(event, 'The Saga of the Loopy Woopy Flat')">The Saga of the Loopy Woopy Flat</button>
+ </div>
+  
+  <!-- Tab content -->
+  <div id="ExperimentXYZ" class="tabcontent">
+    <h3>ExperimentXYZ</h3>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div id="Time-travelling-Bicycle" class="tabcontent">
+    <h3>Time-travelling Bicycle</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="The Saga of the Loopy Woopy Flat" class="tabcontent">
+    <h3>The Saga of the Loopy Woopy Flat</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
   <div class="filled_to_the_brim">
  <h2>The saga of the Loopy Woopy Flat  </h2>
  It's a bunch of computer generated characters doing normal stuff weirdly. 
@@ -70,6 +98,7 @@
       <button class="btn"><i class="fa fa-download"></i>Read</button></a></div>
 	<img class="bigImage" src="../images/Experiment-XYZ-Comics/issue1.jpg" alt="Experiment XYZ  ">
   <h2>New Comics </h2>
+	<img src = "../images/PageFillers/WeDoComics.png" class = "bigImage" alt = "We Do Comics">
   <div>
 <div class="filled_to_the_brim">
   <h2>Great Scott! I'm doing a time-travel comic
@@ -122,7 +151,6 @@ and you might see an issue of whatever this comic will be called soon.<br><br>So
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> <!-- Add font awesome icons -->
 <ul>
  <a  href="https://thunder-cloud-comics.co.uk/index.html">Home</a>
-  <a  href="News.html">News</a>
   <a href="comics.html">Comics</a>
   <a class="active" href="AboutThunderCloud.html">About</a>
 </ul>
