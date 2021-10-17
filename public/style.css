@@ -313,6 +313,8 @@ h1{
     cursor: pointer;
     font-size: 1em;
     font-family: 'Bungee Shade', cursive;
+    float: center;
+    width:100%;
   }
   
   /* Darker background on mouse-over */
