@@ -61,18 +61,18 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
+  width: 120px;
   background-color: black;
-  color:white;
+  color: #fff;
   text-align: center;
   padding: 2%;
-  font-size: small;
   top: -5px;
-  left: 105%;
-  font-family: 'Poppins', sans-serif;
-
-  /* Position the tooltip */
+  left: 105%;    
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif; 
+  /* Position the tooltip text - see examples below! */
   position: absolute;
-  z-index: 1000000000;
+  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
