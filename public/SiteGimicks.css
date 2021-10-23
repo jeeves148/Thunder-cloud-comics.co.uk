@@ -59,7 +59,7 @@
      .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  font-family: 'Poppins', sans-serif;
 }
 
 .tooltip .tooltiptext {
@@ -73,6 +73,7 @@
   font-size: small;
   top: -5px;
   left: 105%;
+  font-family: 'Poppins', sans-serif;
 
   /* Position the tooltip */
   position: absolute;
