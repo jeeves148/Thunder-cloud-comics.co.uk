@@ -60,10 +60,8 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
   background-color: black;
   text-align: center;
-  border-radius: 6px;
   padding: 5px 0;
   font-size: small;
   top: -5px;
