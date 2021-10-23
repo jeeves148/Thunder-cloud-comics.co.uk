@@ -76,7 +76,7 @@
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  z-index: 1000000000;
 }
 
 .tooltip:hover .tooltiptext {
