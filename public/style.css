@@ -32,7 +32,6 @@ h1{
     width:100%;
     background-color: white;
     top: 0;
-    position: absolute;
   }
 
   #banner{
@@ -40,7 +39,6 @@ h1{
     background-color: white;
     top: 0;
     height:20%;
-    position:absolute;
   }
   
   
