@@ -127,8 +127,6 @@ h1{
     background-color: #333;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
-    z-index:2;
-    position:fixed;
     top:15%;
     width:100%;
   }
@@ -139,8 +137,6 @@ h1{
         background-color: #333;
         overflow: hidden;
         font-family: 'Poppins', sans-serif;
-        z-index:2;
-        position:fixed;
         top:15%;
         width:100%;
       }
