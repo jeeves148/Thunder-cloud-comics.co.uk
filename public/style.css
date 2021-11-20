@@ -126,7 +126,7 @@ h1{
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     width:100%;
-    padding-bottom:2%;
+    margin-bottom:2%;
   }
 
   @media only screen and (max-width: 600px) {
@@ -136,7 +136,7 @@ h1{
         overflow: hidden;
         font-family: 'Poppins', sans-serif;
         width:100%;
-        padding-bottom:2%;
+        margin-bottom:2%;
       }
       }
   
