@@ -255,6 +255,8 @@ h1{
     margin-top:2%;
      margin-bottom:10%;
         }
+
+  /* not actually in threes but almost like an automatic less advanced flexbox */
   .threebies{
   height:auto;
       float:left;
