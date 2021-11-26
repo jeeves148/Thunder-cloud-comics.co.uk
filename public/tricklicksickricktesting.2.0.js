@@ -20,7 +20,24 @@ class wizard
 
 
 
+function titleChange()
+{
+    var randomn_titles = [
+        "Tom , Cal Comics"
+        ,
+        "Read our comics"
+        ,
+        ":)"
+        ,
+        "Sup"
+        ,
+        "does anyone even read these"
+        ,
 
+    ]
+
+    var random_thing = Math.floor(Math.random()*randomn_titles.length);
+}
 
 function MakeWizard()
 {
