@@ -103,23 +103,49 @@ h1{
   } 
         }
       
-      .computer-padding
-      {
-      padding-left:20%;
-      padding-right:20%;
-      padding-top:2%;
+/* Split the screen in half */
+    .split {
+      height:auto;
+      float:left;
+      width:48%;
+      padding-top:3px;
+      text-align:center;
+      overflow:hidden;
+      margin: 0% 0.5%;
+   
+  }
 
+  .split-container
+  {
+    height:auto;
+    width:100%;
+    margin-top:2%;
+    margin-bottom:10%;
+  }
 
-      }
+  .left
+  {
+    left:0;
+  }
+
+  .right
+  {
+    right:0;
+  }
       
         @media only screen and (max-width: 600px) {
-      .computer-padding
-      {
+/* Split the screen in half */
+.split {
+  height:auto;
+  float:left;
+  width:100%;
+  padding:1%;
+  padding-top:3px;
+  overflow:hidden;
+}
 
-      padding-left:0%;
-      padding-right:0%;
-      padding-top:2%;
-      }
+
+
         }
   
   .topnav {
