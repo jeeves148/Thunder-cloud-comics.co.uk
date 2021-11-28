@@ -288,12 +288,19 @@ h1{
   }
   
   .image {
+
+    display: block;
     width: auto;
-    height:480px;
+    height:auto;
     text-align:center;
     float:left;
     border-radius:20px;
   }
+
+  .fill {
+    width:100%;
+  }
+  
         
   .btn {
     background-color:#f2f2f2;
