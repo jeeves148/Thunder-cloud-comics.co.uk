@@ -1,4 +1,21 @@
+:root
+{
+  --blank-space:white;
+  --text-color:black;
+  --background-color:#fffd82;
+  --topnav-color:#333;
+}
 
+#dark-switch
+{
+  color:var(--blank-space);
+}
+
+#dark
+{
+  color:var(--blank-space);
+  background-color: var(--topnav-color);
+}
 
 h1{
     font-family: 'Bungee Shade', cursive;
@@ -6,7 +23,7 @@ h1{
     text-align:center;
     width:100%;
     padding:2%;
-    background-color: white;
+    background-color: var(--blank-space);
     height:15%;
   }
 
@@ -18,7 +35,7 @@ h1{
         text-align:center;
         width:100%;
         padding:2%;
-        background-color: white;
+        background-color:var(--blank-space);
         height:15%;
       }
   }
@@ -28,13 +45,13 @@ h1{
   #header
   {
     width:100%;
-    background-color: white;
+    background-color: var(--blank-space);
     top: 0;
   }
 
   #banner{
     width:100%;
-    background-color: white;
+    background-color:var(--blank-space);
     top: 0;
   }
   
@@ -91,14 +108,16 @@ h1{
   
       font-family: 'Open Sans', sans-serif;
       font-size:1.4em;
-      background-color: #fffd82;
+      color:var(--text-color);
+      background-color: var(--background-color);
   }
         @media only screen and (max-width: 600px) {
      body{
   
       font-family: 'Open Sans', sans-serif;
       font-size:1em;
-      background-color: #fffd82;
+      color:var(--text-color);
+      background-color: var(--background-color);
       
   } 
         }
@@ -150,7 +169,7 @@ h1{
   
   .topnav {
     
-    background-color: #333;
+    background-color: var(--topnav-color);
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     width:100%;
@@ -160,8 +179,9 @@ h1{
   @media only screen and (max-width: 600px) {
     .topnav {
     
-        background-color: #333;
+        background-color: var(--topnav-color);
         overflow: hidden;
+        color:var(--text-color);
         font-family: 'Poppins', sans-serif;
         width:100%;
         margin-bottom:2%;
@@ -171,7 +191,7 @@ h1{
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: var(--blank-space);
     text-align: center;
     padding-right: 2%;
     padding-left: 2%;
@@ -186,13 +206,13 @@ h1{
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #84DCCF;
-    color: black;
+    color: var(--text-color);
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #2D3047;
-    color: white;
+    color: var(--text-color);
   }
   
   
@@ -212,7 +232,7 @@ h1{
       text-align:left;
       overflow:hidden;
 
-      background-color: white;
+      background-color: var(--blank-space);
    
   }
 
@@ -255,7 +275,7 @@ h1{
       float:left;
       text-align:left;
       overflow:hidden;
-      background-color: white;
+      background-color: var(--blank-space);
    
   }}
   .character_sheet{
@@ -274,7 +294,7 @@ h1{
       float:left;
       text-align:left;
       overflow:scrollable;
-      background-color: white;
+      background-color: var(--blank-space);
    
   }
         
@@ -303,7 +323,7 @@ h1{
       width:40%;
       text-align:center;
       overflow:hidden;
-      background-color: white;
+      background-color: var(--blank-space);
    
   
   }
@@ -369,7 +389,7 @@ h1{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: var(--blank-space);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -445,7 +465,7 @@ h1{
   footer{
 display: block;
 background-color:black;
-color:white;
+color:var(--blank-space);
 float:left;
 width:100%;
 padding:3.3%;
@@ -474,17 +494,17 @@ opacity: 0.7;
 /* Facebook */
 .fa-facebook {
 background: black;
-color: white;
+color: var(--blank-space);
 }
 
 /* Twitter */
 .fa-twitter {
 background: black;
-color: white;
+color: var(--blank-space);
 }
 
 /* Pintrest */
 .fa-pintrest {
 background: black;
-color: white;
+color: var(--blank-space);
 }
