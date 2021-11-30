@@ -7,8 +7,8 @@ $(document).ready(function(){
         $("h1").append(hiWorld);
     });
 
-    //Dark switch script
 
+    //Dark switch script
     let dark = false;
 
         $("#dark-switch").click(function(){
@@ -31,6 +31,17 @@ $(document).ready(function(){
                 dark = false;              
             }
     });
+
+    //slide function code for content in about page
+$("#whatWeDoHere").click(function()
+{
+    $("#whatWeDoHereContent").slideToggle("slow");
+});
+
+$("#seriouslyWhatWeDoHere").click(function()
+{
+    $("#seriouslyWhatWeDoHereContent").slideDown("slow");
+});
 
 
     

@@ -5,6 +5,7 @@
   --background-color:#fffd82;
   --topnav-color:#333;
   --foreground-color:white;
+  --dfcs:#414141;
 }
 
 #dark-switch
@@ -64,7 +65,7 @@ h1{
     border-radius:20px;
     text-align:left;
     padding:2%;
-    margin-top: 2%;
+    margin-top: 1vw;
     background-color:#ff9b71;
   }   
    @media only screen and (max-width: 600px) {
@@ -75,7 +76,7 @@ h1{
     border-radius:20px;
     text-align:left;
     padding:2%;
-    margin-top: 2%;
+    margin-top: 1vw;
     background-color:#ff9b71;
   	}       
         }  
@@ -87,7 +88,8 @@ h1{
     border-radius:20px;
     text-align:left;
     padding:2%;
-    margin-top: 2%;
+    margin-top: 1vw;
+    position: relative;
     background-color:#84dccf;
   }   
    @media only screen and (max-width: 600px) {
@@ -98,7 +100,8 @@ h1{
     border-radius:20px;
     text-align:left;
     padding:2%;
-    margin-top: 2%;
+    margin-top: 1vw;
+    position: relative;
     background-color:#84dccf;
   }       
         }    
