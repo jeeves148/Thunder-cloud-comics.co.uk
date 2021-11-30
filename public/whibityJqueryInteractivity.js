@@ -18,6 +18,7 @@ $(document).ready(function(){
                 $("body").get(0).style.setProperty("--text-color", "white");
                 $("body").get(0).style.setProperty("--background-color", "black");
                 $("body").get(0).style.setProperty("--topnav-color", "white");
+                $("body").get(0).style.setProperty("--foreground-color", "black");
                 dark = true;
             }
             else if(dark == true)
@@ -26,6 +27,7 @@ $(document).ready(function(){
                 $("body").get(0).style.setProperty("--text-color", "black");
                 $("body").get(0).style.setProperty("--background-color", "#fffd82");
                 $("body").get(0).style.setProperty("--topnav-color", "#333");  
+                $("body").get(0).style.setProperty("--foreground-color", "white");
                 dark = false;              
             }
     });

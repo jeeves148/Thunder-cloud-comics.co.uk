@@ -4,6 +4,7 @@
   --text-color:black;
   --background-color:#fffd82;
   --topnav-color:#333;
+  --foreground-color:white;
 }
 
 #dark-switch
@@ -212,7 +213,7 @@ h1{
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #2D3047;
-    color: var(--text-color);
+    color: white;
   }
   
   
@@ -232,7 +233,7 @@ h1{
       text-align:left;
       overflow:hidden;
 
-      background-color: var(--blank-space);
+      background-color: var(--foreground-color);
    
   }
 
@@ -275,7 +276,7 @@ h1{
       float:left;
       text-align:left;
       overflow:hidden;
-      background-color: var(--blank-space);
+      background-color: var(--foreground-color);
    
   }}
   .character_sheet{
@@ -294,7 +295,7 @@ h1{
       float:left;
       text-align:left;
       overflow:scrollable;
-      background-color: var(--blank-space);
+      background-color: var(--foreground-color);
    
   }
         
@@ -464,7 +465,7 @@ h1{
     
   footer{
 display: block;
-background-color:black;
+background-color:var(--text-color);
 color:var(--blank-space);
 float:left;
 width:100%;
