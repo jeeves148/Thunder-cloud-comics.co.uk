@@ -45,4 +45,5 @@ $("#seriouslyWhatWeDoHere").click(function()
 
 
     
-});//end of document ready so really don't write any code outside of this
+});
+//end of document ready so really don't write any code outside of this
