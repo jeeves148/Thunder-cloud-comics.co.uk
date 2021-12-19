@@ -18,8 +18,6 @@ class wizard
     }
 }
 
-
-
 function titleChange()
 {
     var randomn_titles = [
